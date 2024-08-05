@@ -12,6 +12,10 @@ public class GreensTech {
   System.out.println("Working hours : "+workingHours+"\n"+"Leaves on "+leaves);
   this.greensPerungudi("Vaishnavi", 986745870);
 }
+  private void greensAdayar(int staffs,int doorNo) {
+	System.out.println("door No is"+"\n"+"door No is" +doorNo);
+this.greensAdayar(staffs, 58);
+}
   public static void main(String[] args) {
 	  GreensTech g = new GreensTech();
 	  g.greensPerungudi(250);
